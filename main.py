@@ -20,7 +20,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
-# ---------------- AUTH ----------------
+# ---------------- AUTH ----------------------------------------------------------
 
 @app.post("/register/")
 def register(user: UserCreate):
@@ -61,7 +61,7 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
     return {"access_token": token, "token_type": "bearer"}
 
 
-# ---------------- AUTH DEPENDENCY ----------------
+# ---------------- AUTH DEPENDENCY ----------------------------
 
 def get_current_user(token: str = Depends(oauth2_scheme)):
     try:
@@ -77,7 +77,7 @@ def admin_required(user=Depends(get_current_user)):
     return user
 
 
-# ---------------- PRODUCTS ----------------
+# ---------------- PRODUCTS -------------------------------------------
 
 @app.post("/product/")
 def add_product(product: Product, user=Depends(admin_required)):
