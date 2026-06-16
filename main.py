@@ -101,7 +101,7 @@ def get_products(user=Depends(get_current_user)):
     cur.execute("SELECT * FROM products")
     products = cur.fetchall()
 
-    return {"products": products}
+    return {"products": product}
 
 
 @app.get("/low-stock/")
