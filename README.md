@@ -4,7 +4,7 @@
 - Product Management
 - Stock Tracking
 - Low Stock Alerts
-- Sales Reports (basic structure)
+- Sales Reports (Basic Structure)
 
 ## Run Project
 ```bash
