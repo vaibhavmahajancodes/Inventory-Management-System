@@ -38,5 +38,10 @@ python -m uvicorn main:app --reload
 * `GET /low-stock/` — View Low Stock Products
 
 ## 🛠️ Tech Stack
+* 🐍 Python
+* ⚡ FastAPI
+* 🗄️ SQLite
+* 🔑 JWT Authentication
+* 📄 Swagger UI
 
 
