@@ -44,4 +44,10 @@ python -m uvicorn main:app --reload
 * 🔑 JWT Authentication
 * 📄 Swagger UI
 
+## 🎯 Learning Outcomes
+
+* REST API Development with FastAPI
+* JWT Authentication & Authorization
+* Role-Based Access Control (RBAC)
+
 
