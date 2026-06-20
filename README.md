@@ -49,5 +49,7 @@ python -m uvicorn main:app --reload
 * REST API Development with FastAPI
 * JWT Authentication & Authorization
 * Role-Based Access Control (RBAC)
+* Database Integration with SQLite
+* Backend Project Architecture
 
 
