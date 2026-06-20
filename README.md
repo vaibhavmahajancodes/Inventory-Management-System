@@ -51,5 +51,5 @@ python -m uvicorn main:app --reload
 * Role-Based Access Control (RBAC)
 * Database Integration with SQLite
 * Backend Project Architecture
-
+* Inventory & Stock Management Logic
 
