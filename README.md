@@ -37,3 +37,6 @@ python -m uvicorn main:app --reload
 * `GET /products/` — View All Products
 * `GET /low-stock/` — View Low Stock Products
 
+## 🛠️ Tech Stack
+
+
